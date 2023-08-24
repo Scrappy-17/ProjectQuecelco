@@ -1,0 +1,37 @@
+.box-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .input-box-register {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(247, 247, 252);
+    text-align: center;
+  }
+  
+  .input-box-register input[type="text"], .input-box-register input[type="email"], .input-box-register input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(11, 10, 10);
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  
+  .input-box-register input[type="text"]:focus, .input-box-register input[type="email"]:focus, .input-box-register input[type="password"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+  }
